@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-TODO 1: change RelativeLayout to LinearLayout, set its orientation to "vertical", padding to 16dp
+    TODO 1 change RelativeLayout to LinearLayout
+    set its orientation to "vertical", padding to 16dp
 -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--TODO 2: add an EditText element into the layout file with id “@+id/edit_text”, width “match_parent” and height “wrap_content”-->
+    <!--
+        TODO 2 add EditText
+        add an EditText here
+        set its id to “@+id/edit_text”
+        set its width to “match_parent” and height to “wrap_content”
+    -->
 
-    <!--TODO 3: add a Button to the layout file with id “@+id/button”, width “match_parent”, height “wrap_content” and text “Click me!”-->
+    <!--
+        TODO 3 add Button
+        add a Button here
+        set its id to “@+id/button”
+        set its width to “match_parent” and height to “wrap_content”
+        set its text to “Click me!”
+    -->
 
-    <!--TODO 4: add id field “@+id/text_view”-->
+    <!--
+        TODO 4 change TextView id
+        set the id of the below TextView to “@+id/text_view”
+    -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
 </RelativeLayout>
